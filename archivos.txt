@@ -1,0 +1,6 @@
+archivos.txt
+listar.sh
+notas.txt
+prueba.txt
+README.md
+saludo.sh
