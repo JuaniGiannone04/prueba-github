@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# ESTE SCRIPT LISTA LOS USUARIOS QUE TENGAN UN FORMATO VALIDO: USERNAME SIN ESPACIOS
+# Y CONTRASEÑAS CON NUMERO
+
+grep -E "^[^, ]+,[^,]*[0-9][^,]*$" usuarios.csv
+
